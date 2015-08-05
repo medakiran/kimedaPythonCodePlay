@@ -31,6 +31,6 @@ class BloomFilter:
 
 
 if __name__ == '__main__':
-    medaFamily = BloomFilter('kiran kumar meda swapna raja meda'.split())
+    medaFamily = BloomFilter('kiran kumar meda swapna raja java'.split())
     print 'kiran' in medaFamily
     print 'king' in medaFamily
